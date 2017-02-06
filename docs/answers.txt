@@ -1,0 +1,27 @@
+(a) 
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 489 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+To https://github.com/Loganv14/GitAssignment.git
+   0d667b3..191a1ba  master -> master
+(b)
+12
+git rev-list master --count
+(c)
+Thu Sep 15 10:29:34 2016
+git log -n 1 -- .gitignore
+(d)
+4
+git shortlog -s src
+(e)
+git status shows which changes have and have not been staged, as well as files not being tracked.
+git log shows information about the committed project history.
+(f)
+git log --follow RoleGame.java
+(g)
+git log --all --grep='file'
+(h)
+git log --author="Alice" --since="2016-09-01" --until="2016-09-16"
