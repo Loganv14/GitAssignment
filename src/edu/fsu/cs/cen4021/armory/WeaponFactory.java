@@ -14,6 +14,17 @@ public class WeaponFactory {
         switch (type) {
             case "sword":
                 return new Sword();
+            case "SimpleArrow":
+                return new SimpleArrow();
+            case "SimpleAxe":
+                return new SimpleAxe();
+            case "SimpleMagicStaff":
+                return new SimpleMagicStaff();
+            case "TheChosenOneAxe":
+                return new TheChosenOneAxe();
+            case "AncientMagicStaff":
+                return new AncientMagicStaff();
+
             default:
                 throw new IllegalArgumentException("Invalid type");
         }
